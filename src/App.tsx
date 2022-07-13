@@ -31,7 +31,7 @@ interface MovieProps {
 }
 
 export function App() {
-	//parent component that passes to children...
+	//parent component that passes to children....
 	const [selectedGenreId, setSelectedGenreId] = useState(1);
 
 	const [genres, setGenres] = useState<GenreResponseProps[]>([]);
